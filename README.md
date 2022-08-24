@@ -6,6 +6,9 @@ We then put it in a useState called filebase64 that you could use like any other
 
 there's nothing fancy about the form submit and nother fancy about the ```<input type="file">```
 
+### Demo
+<a href="https://react-image-up.surge.sh/">react-image-up.surge.sh</a>
+
 ### But how to use it
 To use it is simply. Save the value as if someone typed it. Then use it in the src of your image.
 or else the source of your video or sound. 
