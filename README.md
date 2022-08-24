@@ -2,7 +2,8 @@
 
 In this example we create a very simple form with one field for uploading an image (maybe for a profile picture?)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cZ0YsVpA1Ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Click to see a live demo and explanation
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cZ0YsVpA1Ps/0.jpg)](https://www.youtube.com/watch?v=cZ0YsVpA1Ps)
 
 We then put it in a useState called filebase64 that you could use like any other input field 
 
