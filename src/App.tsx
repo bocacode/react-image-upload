@@ -42,23 +42,62 @@ function App() {
               Simply include the 'filebase64' variable<br /> 
               as one of the things you submit</p>
             
+          
+            {/* if it's an image */ }
+            {/* if it's an image */ }
             {/* if it's an image */ }
             {(filebase64.indexOf("image/") > -1) && 
             <img src={filebase64} width={300} />
             }
+            {/* if it's an image */ }
+            {/* if it's an image */ }
+            {/* if it's an image */ }
 
+
+              
+
+            {/* if it's a video */}
+            {/* if it's a video */}
             {/* if it's a video */}
             {(filebase64.indexOf("video/") > -1)  && 
             <video controls >
               <source src={filebase64} />
             </video>
-             }
+}
             {/* if it's a video */}
+            {/* if it's a video */}
+            {/* if it's a video */}
+ 
+              
+              
+ 
+            {/* if it's a audio (music, sound) */}
+            {/* if it's a audio (music, sound) */}
+            {/* if it's a audio (music, sound) */}
               {(filebase64.indexOf("audio/") > -1)  && 
               <audio controls >
                 <source src={filebase64} />
               </audio>
              }
+            {/* if it's a audio (music, sound) */}
+            {/* if it's a audio (music, sound) */}
+            {/* if it's a audio (music, sound) */}
+ 
+
+            {/* if it's a PDF */}
+            {/* if it's a PDF */}
+            {/* if it's a PDF */}
+            {(filebase64.indexOf("application/pdf") > -1)  && 
+             <embed src={filebase64} width="800px" height="2100px" />
+             }
+            {/* if it's a PDF */}
+            {/* if it's a PDF */}
+            {/* if it's a PDF */} 
+
+
+              
+              
+              
             <hr />
             <button> Submit and check the console</button>
             
